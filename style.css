@@ -1,11 +1,21 @@
-h1{
+body{
+
+}
+
+header h1{
+    background-color:orangered;
     float:left;
+    padding-left:20px;
+    border:solid 5px orangered;
 }
 
 
 header h3{
-    padding-left:20px;
+    background-color:orangered;
+    padding-left:80px;
     float:left;
+
+    border:solid 5px orangered;
 }
 
 
@@ -23,8 +33,10 @@ header h3{
 
 #sök{
     padding-top:100px;
-   float:left;
 
 }
 
-
+#hobby img{
+    padding-top:200px;
+    widht:960px;
+}
