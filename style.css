@@ -42,15 +42,14 @@ header h3{
 
 .slideshow img{
     padding-top:60px;
-    padding-left:20px;
+    padding-left:80px;
 
-    width:1290px;
    height:250px;
 }
 
 .annons{
 
-    border:solid 2px grey;
+    border:solid 2px black;
    margin-top:20px;
 
 }
