@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 </head>
 <body>
 <header>
@@ -25,9 +26,33 @@
 </div>
     </form>
 
-<div id="hobby">
-<img src="img/hobby.jpg" alt="bild">
+
+    <div class="slideshow">
+        <!--Slide 1-->
+        <img src="img/fritid.jpg" alt="fritid & hobby"/>
+        <!--Slide 2-->
+        <img src="img/bil.jpg" alt="bil"/>
+        <!--Slide 3-->
+        <img src=""/>
+        <!--Slide 4-->
+        <img src=""/>
+
     </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slideshow').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            });
+        });
+    </script>
+
 
 <div id="navbar">
 <nav>
@@ -41,9 +66,21 @@
 
 <section>
     <div class="annons">
-<p>grill 270:-</p>
         <img src="img/grill.jpg" alt="grill"/>
+<h2>grill 270:-</h2>
+
+        <p>Väl behandlad</p>
+        <p>24 korvar samtidigt</p>
+        <p>3 Hamburgare på köpet</p>
+
     </div>
+
+    <div class="annons">
+        <h2>nånting 100:-</h2>
+        <p>bla</p>
+        <p>bla</p>
+        <p>bla</p>
+         </div>
 </section>
 
 </body>

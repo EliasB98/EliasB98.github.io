@@ -40,7 +40,7 @@ header h3{
 
 }
 
-#hobby img{
+.slideshow img{
     padding-top:60px;
     padding-left:20px;
 
@@ -49,9 +49,10 @@ header h3{
 }
 
 .annons{
-    text-align:center;
+
     border:solid 2px grey;
-    padding-bottom:100px;
+   margin-top:20px;
+
 }
 
 nav{
@@ -75,14 +76,23 @@ nav h2{
 }
 
 section{
-    padding-top:100px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-top:80px;
+    padding-left:220px;
+    padding-right:220px;
 }
 
 .annons img{
-    width:200px;
-    height:100px;
+    width:220px;
+    height:170px;
     float:right;
 
+}
+
+.annons h2{
+
+    padding-left:20px;
+}
+
+.annons p{
+    padding-left:20px;
 }
