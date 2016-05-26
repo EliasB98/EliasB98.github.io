@@ -38,5 +38,6 @@ header h3{
 
 #hobby img{
     padding-top:200px;
-    widht:960px;
+    width:960px;
+    float:right;
 }
