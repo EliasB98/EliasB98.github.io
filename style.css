@@ -2,7 +2,10 @@ body{
 
 }
 
-/*Change*/
+header{
+    padding-left:20px;
+}
+
 header h1{
     background-color:blue;
     float:left;
@@ -15,7 +18,6 @@ header h3{
     background-color:orangered;
     padding-left:80px;
     float:left;
-
     border:solid 5px orangered;
 }
 
@@ -34,11 +36,53 @@ header h3{
 
 #sök{
     padding-top:100px;
+    padding-left:20px;
 
 }
 
 #hobby img{
-    padding-top:200px;
-    width:960px;
+    padding-top:60px;
+    padding-left:20px;
+
+    width:1290px;
+   height:250px;
+}
+
+.annons{
+    text-align:center;
+    border:solid 2px grey;
+    padding-bottom:100px;
+}
+
+nav{
+    border:2px solid black;
+    float:left;
+    padding-right:100px;
+
+}
+
+nav h2{
+
+    float:left;
+    margin-left:105px;
+
+}
+
+#navbar{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+}
+
+section{
+    padding-top:100px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.annons img{
+    width:200px;
+    height:100px;
     float:right;
+
 }
