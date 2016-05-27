@@ -1,50 +1,61 @@
 body{
-
+    font-family: 'Asap', sans-serif;
 }
 
 header{
-    padding-left:20px;
+    padding-left:80px;
+
 }
 
 header h1{
-    background-color:blue;
+    background-color:limegreen;
     float:left;
     padding-left:20px;
-    border:solid 5px orangered;
+    border:solid 2px black;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:0px;
+    color:white;
 }
 
 
 header h3{
-    background-color:orangered;
+    background-color:limegreen;
     padding-left:80px;
     float:left;
-    border:solid 5px orangered;
-}
-
-
-#inloggning{
-    float:right;
-    padding-right:20px;
-
-}
-
-#inloggning img{
-    height:80px;
-    width:80px;
     border:solid 2px black;
+    padding-top:27px;
+    padding-bottom:29px;
+    margin-top:0px;
+    padding-right:275px;
+
 }
+
+header h4{
+    float:right;
+    margin-top:0px;
+
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+}
+
+
 
 #sök{
-    padding-top:100px;
+    padding-top:120px;
     padding-left:20px;
 
 }
 
 .slideshow img{
-    padding-top:60px;
-    padding-left:80px;
-
+    margin-top:20px;
+    margin-left:80px;
+    margin-right:83px;
    height:250px;
+    border:solid 2px black;
 }
 
 .annons{
@@ -57,8 +68,8 @@ header h3{
 nav{
     border:2px solid black;
     float:left;
-    padding-right:100px;
-
+    background-color:limegreen;
+    padding-right:210px;
 }
 
 nav h2{
@@ -68,16 +79,21 @@ nav h2{
 
 }
 
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
 #navbar{
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
 }
 
 section{
-    padding-top:80px;
-    padding-left:220px;
-    padding-right:220px;
+    margin-top:120px;
+    margin-left:220px;
+    margin-right:220px;
 }
 
 .annons img{
@@ -95,3 +111,21 @@ section{
 .annons p{
     padding-left:20px;
 }
+
+.annons a{
+    text-decoration:none;
+    color: black;
+}
+
+footer{
+    background-color:limegreen;
+    margin-top:60px;
+    border:2px solid black;
+}
+
+footer p{
+    padding-left:20px;
+
+}
+
+

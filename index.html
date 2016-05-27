@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,16 +9,12 @@
 </head>
 <body>
 <header>
-    <h1>KÖP O SÄLJ</h1>
-    <a><h3>Välj ditt län</h3></a>
+    <a href="index.html"><h1>KÖP O SÄLJ</h1></a>
+    <a href="län.html"><h3>Välj ditt län</h3></a>
     <a href="support.html"><h3>Har du några frågor?</h3></a>
+    <a href="inloggning.html"><h4>Logga in</h4></a>
+    <a href ="varukorg.html"><h4>Varukorg</h4></a>
 </header>
-
-<div id="inloggning">
-    <img src="http://www.finearttips.com/wp-content/uploads/2010/05/avatar.jpg" alt="avatar ikon"/>
-    <a><h4>Logga in</h4></a>
-    <a><h4>Varukorg</h4></a>
-</div>
 
 <form>
 <div id="sök">
@@ -35,7 +32,7 @@
         <!--Slide 3-->
         <img src="img/rum.jpg" alt="för hemmet"/>
         <!--Slide 4-->
-        <img src=""/>
+        <img src="img/elektronik.jpg" alt="elektronik"/>
 
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -56,32 +53,40 @@
 
 <div id="navbar">
 <nav>
-    <h2>Fordon</h2>
-    <h2>Elektronik</h2>
-    <h2>För Hemmet</h2>
-    <h2>Fritid & Hobby</h2>
-    <h2>Andra Kategorier</h2>
+    <a href="fordonindex.html"><h2>Fordon</h2></a>
+    <a href="elektronikindex.html"><h2>Elektronik</h2></a>
+    <a href="hemmetindex.html"><h2>För Hemmet</h2></a>
+    <a href="fritidhobbyindex.html"><h2>Fritid & Hobby</h2></a>
+    <a href="index.html"><h2>Övrigt</h2></a>
 </nav>
     </div>
 
 <section>
     <div class="annons">
-        <img src="img/grill.jpg" alt="grill"/>
-<h2>grill 270:-</h2>
+        <a href="annons.html"><img src="img/grill.jpg" alt="grill"/>
+     <h2>grill 270:-</h2>
 
         <p>Väl behandlad</p>
         <p>24 korvar samtidigt</p>
         <p>3 Hamburgare på köpet</p>
-
+       </a>
     </div>
 
     <div class="annons">
-        <h2>nånting 100:-</h2>
-        <p>bla</p>
-        <p>bla</p>
-        <p>bla</p>
+        <a href="annons.html"><img src="img/tv.jpg" alt="tv"/>
+        <h2>TV 100:-</h2>
+        <p>funkar kanske</p>
+        <p>3 kanaler</p>
+        <p>mycket för pengarna</p>
+
+        </a>
          </div>
 </section>
 
+<footer>
+    <p>Kontakta oss</p>
+    <p>Tel: 123-456 789</p>
+    <p>Mail:KÖPOSÄLJ@hotmail.com</p>
+</footer>
 </body>
 </html>
