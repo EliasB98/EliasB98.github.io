@@ -29,7 +29,7 @@ header h3{
     padding-top:27px;
     padding-bottom:29px;
     margin-top:0px;
-    padding-right:275px;
+    padding-right:255px;
 
 }
 
@@ -63,12 +63,17 @@ header a{
 
 }
 
-.slideshow img{
+.slideshow{
     margin-top:20px;
     margin-left:80px;
-    margin-right:83px;
+    margin-right:80px;
+}
+
+.bild img{
+    padding-top:0px;
+   width:1200px;
    height:250px;
-    border:solid 2px black;
+
 }
 
 .annons{
@@ -111,7 +116,7 @@ section{
 
 .annons img{
     width:220px;
-    height:170px;
+    height:169px;
     float:right;
 
 }

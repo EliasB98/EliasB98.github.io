@@ -10,12 +10,10 @@
 <body>
 <header>
     <a href="index.html"><h1>KÖP O SÄLJ</h1></a>
-    <select><option value="län">Välj ditt län</option>
-        <option value="Jönköping">Jönköping</option>
-        <option value="Stockholm">Stockholm</option>
-
-
-
+    <select><option value="län">Välj din landsdel</option>
+        <option value="Götaland">Götaland</option>
+        <option value="Svealand">Svealand</option>
+        <option value="Norrland">Norrland</option>
     </select>
     <a href="support.html"><h3>Har du några frågor?</h3></a>
     <a href="inloggning.html"><h4>Logga in</h4></a>
@@ -32,13 +30,21 @@
 
     <div class="slideshow">
         <!--Slide 1-->
-        <img src="img/fritid.jpg" alt="fritid & hobby"/>
+        <div class="bild">
+        <a href="#hobby"><img src="img/fritid.jpg" alt="fritid & hobby"/></a>
+    </div>
         <!--Slide 2-->
-        <img src="img/rsz_bil.jpg" alt="fordon"/>
+        <div class="bild">
+            <a href="#fordon"><img src="img/rsz_bil.jpg" alt="fordon"/></a>
+        </div>
         <!--Slide 3-->
-        <img src="img/rum.jpg" alt="för hemmet"/>
+        <div class="bild">
+            <a href="#hemmet"><img src="img/rum.jpg" alt="för hemmet"/></a>
+        </div>
         <!--Slide 4-->
-        <img src="img/elektronik.jpg" alt="elektronik"/>
+        <div class="bild">
+            <a href="#elektronik"><img src="img/elektronik.jpg" alt="elektronik"/></a>
+        </div>
 
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -59,15 +65,16 @@
 
 <div id="navbar">
 <nav>
-    <a href="fordonindex.html"><h2>Fordon</h2></a>
-    <a href="elektronikindex.html"><h2>Elektronik</h2></a>
-    <a href="hemmetindex.html"><h2>För Hemmet</h2></a>
-    <a href="fritidhobbyindex.html"><h2>Fritid & Hobby</h2></a>
+    <a href="#fordon"><h2>Fordon</h2></a>
+    <a href="#elektronik"><h2>Elektronik</h2></a>
+    <a href="#hemmet"><h2>För Hemmet</h2></a>
+    <a href="#hobby"><h2>Fritid & Hobby</h2></a>
     <a href="index.html"><h2>Övrigt</h2></a>
 </nav>
     </div>
 
 <section>
+    <div id="hobby">
     <div class="annons">
         <a href="annons.html"><img src="img/grill.jpg" alt="grill"/>
      <h2>grill 270:-</h2>
@@ -78,15 +85,81 @@
        </a>
     </div>
 
+
     <div class="annons">
-        <a href="annons.html"><img src="img/tv.jpg" alt="tv"/>
-        <h2>TV 100:-</h2>
+        <a href="annons.html"><img src="img/golf.jpg" alt="golfbag"/>
+        <h2>Golfbag 100:-  (Företag)</h2>
         <p>funkar kanske</p>
         <p>3 kanaler</p>
         <p>mycket för pengarna</p>
 
         </a>
          </div>
+    </div>
+
+    <div id="elektronik">
+    <div class="annons">
+        <a href="annons.html"><img src="img/tv.jpg" alt="tv"/>
+            <h2>TV 100:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+
+    <div class="annons">
+        <a href="annons.html"><img src="img/ps4.png" alt="playstation 4"/>
+            <h2>Playstation 4 1200:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+        </div>
+<div id="fordon">
+    <div class="annons">
+        <a href="annons.html"><img src="img/skrot.jpg" alt="skrotbil"/>
+            <h2>TV 100:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+
+    <div class="annons">
+        <a href="annons.html"><img src="img/volvo.jpg" alt="Volvo V70"/>
+            <h2>TV 100:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+    </div>
+
+    <div id="hemmet">
+    <div class="annons">
+        <a href="annons.html"><img src="img/stol.jpg" alt="stol"/>
+            <h2>TV 100:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+    <div class="annons">
+        <a href="annons.html"><img src="img/katt.jpg" alt="katt"/>
+            <h2>TV 100:-</h2>
+            <p>funkar kanske</p>
+            <p>3 kanaler</p>
+            <p>mycket för pengarna</p>
+
+        </a>
+    </div>
+        </div>
 </section>
 
 <footer>
