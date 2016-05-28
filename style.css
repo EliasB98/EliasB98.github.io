@@ -4,6 +4,7 @@ body{
 
 header{
     padding-left:80px;
+    margin-bottom:20px;
 
 }
 
@@ -29,6 +30,17 @@ header h3{
     margin-top:0px;
     padding-right:275px;
 
+}
+
+header select{
+    background-color:white;
+    padding-left:80px;
+    float:left;
+    border:solid 2px black;
+    padding-top:27px;
+    padding-bottom:33px;
+    margin-top:0px;
+    padding-right:275px;
 }
 
 header h4{
@@ -69,7 +81,7 @@ nav{
     border:2px solid black;
     float:left;
     background-color:limegreen;
-    padding-right:210px;
+    padding-right:230px;
 }
 
 nav h2{
@@ -128,4 +140,48 @@ footer p{
 
 }
 
+#stuff{
+    padding-top:200px;
+    padding-bottom:100px;
 
+
+}
+
+.input{
+ float:left;
+}
+
+#inloggning{
+    border:solid 2px black;
+    padding:60px;
+    margin-left:450px;
+    margin-right:450px;
+
+}
+
+#frågor {
+    margin-left:20px;
+    margin-top:60px;
+
+}
+
+#meddelande{
+    margin-left:20px;
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+#meddelande label{
+    float:left;
+    margin-right:5px;
+}
+
+#meddelande textarea{
+    float:left;
+}
+
+#meddelande button{
+
+    margin-top:10px;
+    margin-right:1000px;
+}
