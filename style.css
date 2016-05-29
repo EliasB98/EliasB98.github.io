@@ -192,4 +192,32 @@ footer p{
     margin-right:1000px;
 }
 
-/* försök1
+#annonstext{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#border{
+    padding-left:20px;
+    border:2px solid black;
+    margin-left:500px;
+    margin-right:500px;
+
+}
+
+#varukorg h4{
+    padding-top:150px;
+    margin-left:500px;
+}
+
+#border h5{
+    padding-top:50px;
+}
+
+#varukorg{
+    padding-bottom:15px;
+}
+
+#border button{
+   margin-bottom:20px;
+}
